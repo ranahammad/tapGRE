@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>yokel</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>a rustic person</string>
+		<key>Sentence</key>
+		<string>Despite coming from a sophisticated and learned family, the famed artist could even play the role of a village yokel to perfection</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>yen</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>a strong desire</string>
+		<key>Sentence</key>
+		<string>His yen for money is the cause of his criminal inclinations; he can do anything for money</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>yank</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>To pull something forcefully with a quick movement</string>
+		<key>Sentence</key>
+		<string>He tried hard to open the door but it would not budge, so he yanked out the latch with all his force</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>yield</string>
+		<key>Type</key>
+		<string>n &amp; v</string>
+		<key>Meaning</key>
+		<string>1) Amount produced; crop; income or investment 2) Give in, surrender</string>
+		<key>Sentence</key>
+		<string>Despite great pressure from the landlord to give up the occupied land, he did not yield.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>yokel</string>
+		<key>Type</key>
+		<string>n &amp; v</string>
+		<key>Meaning</key>
+		<string>1) Piece of timber wood to fit on an animal&apos;s shoulder 2) To unite, or couple</string>
+		<key>Sentence</key>
+		<string>(1) A bullock cart, with two oxen attached to a yoke and pulling a carriage, has been the traditional means of transport in the Indian villages for the past several decades. (2) All these different political ideologies have somehow been yoked together to form the combined manifesto of the political alliance.</string>
+	</dict>
+</array>
+</plist>

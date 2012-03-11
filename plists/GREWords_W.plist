@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>whine</string>
+		<key>Type</key>
+		<string>n &amp; v</string>
+		<key>Meaning</key>
+		<string>Long-drawn complaining cry (as) of a child or dog</string>
+		<key>Sentence</key>
+		<string>At first, nothing could be heard from underneath the rubble, but then a painful whine of a little child could clearly be heard</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>wizened</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Shriveled, Wrinkled or Dried-up in appearance (chiefly of a person or his face or look)</string>
+		<key>Sentence</key>
+		<string> </string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>wile</string>
+		<key>Type</key>
+		<string>n &amp; v</string>
+		<key>Meaning</key>
+		<string>To lure or entice someone</string>
+		<key>Sentence</key>
+		<string>It did not take long for me to see through his wile, and to realize that the property agent was up to no good</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>wraith</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Ghost, Spectral apparition of a living person</string>
+		<key>Sentence</key>
+		<string>After the death of her husband she was psychologically disturbed for a while, imagining that the wraith of her husband was with her all the time</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>wan</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Pale or faint (usually due to illness or fatigue)</string>
+		<key>Sentence</key>
+		<string>I can never forget the wan face of the little child looking at me out of the window with fear and longing in his eyes.</string>
+	</dict>
+</array>
+</plist>

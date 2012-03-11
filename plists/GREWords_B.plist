@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>banal</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Very ordinary, Boring </string>
+		<key>Sentence</key>
+		<string>What looked like a rather banal idea to begin with for a cola advertisement, soon took the shape of one of the most amazing TV commercials of all times</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>burnish</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>To polish, make shiny or lustrous </string>
+		<key>Sentence</key>
+		<string>My job at the handcraft store was to burnish the silver and brass items on sale each morning so that they looked new to the customer</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>bashful</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Shy, Too hesitant to open up and share </string>
+		<key>Sentence</key>
+		<string>The six-year old girl was bashful and coy to begin with, but soon she opened up and gave me all the information I wanted</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>bucolic</string>
+		<key>Type</key>
+		<string>adjective &amp; noun</string>
+		<key>Meaning</key>
+		<string>Pertaining to a village or the countryside </string>
+		<key>Sentence</key>
+		<string>The large windmill stood out as a symbol of modernity in the typically bucolic scene of the peasants harvesting their fields</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>bête noire</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>a person or object that evokes fear or dislike in a particular person </string>
+		<key>Sentence</key>
+		<string>The newly appointed Chancellor of the university is Prof. Higgins&apos; old bête noir -- the two had once publicly assailed each other over a rather trivial issue</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TapGREAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TapGREAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* TapGREViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TapGREViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TapGREViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TapGREViewController.m */; };
+		562BE3DF130BD34900C69FAE /* 57_TapGRE_Free.png in Resources */ = {isa = PBXBuildFile; fileRef = 562BE3DD130BD34900C69FAE /* 57_TapGRE_Free.png */; };
+		562BE3E0130BD34900C69FAE /* 512_TapGRE_Free.png in Resources */ = {isa = PBXBuildFile; fileRef = 562BE3DE130BD34900C69FAE /* 512_TapGRE_Free.png */; };
+		56A4AE6212FD3B3000AC79F3 /* CSqliteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AE6112FD3B3000AC79F3 /* CSqliteController.m */; };
+		56A4AE6412FD3B3E00AC79F3 /* grewords.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE6312FD3B3E00AC79F3 /* grewords.sqlite */; };
+		56A4AE6712FD3D1300AC79F3 /* 57_icon_Tap-GRE.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE6512FD3D1300AC79F3 /* 57_icon_Tap-GRE.png */; };
+		56A4AE6812FD3D1300AC79F3 /* 512_icon_Tap-GRE.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE6612FD3D1300AC79F3 /* 512_icon_Tap-GRE.png */; };
+		56A4AE6A12FD3EE400AC79F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE6912FD3EE400AC79F3 /* Default.png */; };
+		56A4AEBD12FD415C00AC79F3 /* Back-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE8E12FD415C00AC79F3 /* Back-Button.png */; };
+		56A4AEBE12FD415C00AC79F3 /* bookmarks.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE8F12FD415C00AC79F3 /* bookmarks.png */; };
+		56A4AEBF12FD415C00AC79F3 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9012FD415C00AC79F3 /* correct.png */; };
+		56A4AEC012FD415C00AC79F3 /* Credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9112FD415C00AC79F3 /* Credits.png */; };
+		56A4AEC112FD415C00AC79F3 /* Done_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9212FD415C00AC79F3 /* Done_button.png */; };
+		56A4AEC212FD415C00AC79F3 /* Easy-Button_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9312FD415C00AC79F3 /* Easy-Button_Normal.png */; };
+		56A4AEC312FD415C00AC79F3 /* Easy-Button_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9412FD415C00AC79F3 /* Easy-Button_Selected.png */; };
+		56A4AEC412FD415C00AC79F3 /* Edit_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9512FD415C00AC79F3 /* Edit_button.png */; };
+		56A4AEC512FD415C00AC79F3 /* Exit_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9612FD415C00AC79F3 /* Exit_Button.png */; };
+		56A4AEC612FD415C00AC79F3 /* gre_words.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9712FD415C00AC79F3 /* gre_words.png */; };
+		56A4AEC712FD415C00AC79F3 /* green_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9812FD415C00AC79F3 /* green_normal.png */; };
+		56A4AEC812FD415C00AC79F3 /* green_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9912FD415C00AC79F3 /* green_selected.png */; };
+		56A4AEC912FD415C00AC79F3 /* Hard-Button_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9A12FD415C00AC79F3 /* Hard-Button_Normal.png */; };
+		56A4AECA12FD415C00AC79F3 /* Hard-Button_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9B12FD415C00AC79F3 /* Hard-Button_Selected.png */; };
+		56A4AECB12FD415C00AC79F3 /* i0000.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9C12FD415C00AC79F3 /* i0000.png */; };
+		56A4AECC12FD415C00AC79F3 /* i0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9D12FD415C00AC79F3 /* i0001.png */; };
+		56A4AECD12FD415C00AC79F3 /* i0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9E12FD415C00AC79F3 /* i0002.png */; };
+		56A4AECE12FD415C00AC79F3 /* i0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AE9F12FD415C00AC79F3 /* i0003.png */; };
+		56A4AECF12FD415C00AC79F3 /* i0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA012FD415C00AC79F3 /* i0004.png */; };
+		56A4AED012FD415C00AC79F3 /* i0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA112FD415C00AC79F3 /* i0005.png */; };
+		56A4AED112FD415C00AC79F3 /* i0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA212FD415C00AC79F3 /* i0006.png */; };
+		56A4AED212FD415C00AC79F3 /* i0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA312FD415C00AC79F3 /* i0007.png */; };
+		56A4AED312FD415C00AC79F3 /* i0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA412FD415C00AC79F3 /* i0008.png */; };
+		56A4AED412FD415C00AC79F3 /* i0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA512FD415C00AC79F3 /* i0009.png */; };
+		56A4AED512FD415C00AC79F3 /* i0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA612FD415C00AC79F3 /* i0010.png */; };
+		56A4AED612FD415C00AC79F3 /* i0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA712FD415C00AC79F3 /* i0011.png */; };
+		56A4AED712FD415C00AC79F3 /* i0012.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA812FD415C00AC79F3 /* i0012.png */; };
+		56A4AED812FD415C00AC79F3 /* i0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEA912FD415C00AC79F3 /* i0013.png */; };
+		56A4AED912FD415C00AC79F3 /* i0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEAA12FD415C00AC79F3 /* i0014.png */; };
+		56A4AEDA12FD415C00AC79F3 /* i0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEAB12FD415C00AC79F3 /* i0015.png */; };
+		56A4AEDB12FD415C00AC79F3 /* Medium-Button_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEAC12FD415C00AC79F3 /* Medium-Button_Normal.png */; };
+		56A4AEDC12FD415C00AC79F3 /* Meduim-Button_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEAD12FD415C00AC79F3 /* Meduim-Button_Selected.png */; };
+		56A4AEDD12FD415C00AC79F3 /* Menu-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEAE12FD415C00AC79F3 /* Menu-Button.png */; };
+		56A4AEDE12FD415C00AC79F3 /* New_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEAF12FD415C00AC79F3 /* New_button.png */; };
+		56A4AEDF12FD415C00AC79F3 /* Next-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB012FD415C00AC79F3 /* Next-Button.png */; };
+		56A4AEE012FD415C00AC79F3 /* orange_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB112FD415C00AC79F3 /* orange_normal.png */; };
+		56A4AEE112FD415C00AC79F3 /* orange_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB212FD415C00AC79F3 /* orange_selected.png */; };
+		56A4AEE212FD415C00AC79F3 /* Previous-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB312FD415C00AC79F3 /* Previous-Button.png */; };
+		56A4AEE312FD415C00AC79F3 /* Quiz_mode-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB412FD415C00AC79F3 /* Quiz_mode-1.png */; };
+		56A4AEE412FD415C00AC79F3 /* quiz_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB512FD415C00AC79F3 /* quiz_mode.png */; };
+		56A4AEE512FD415C00AC79F3 /* red_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB612FD415C00AC79F3 /* red_normal.png */; };
+		56A4AEE612FD415C00AC79F3 /* red_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB712FD415C00AC79F3 /* red_selected.png */; };
+		56A4AEE712FD415C00AC79F3 /* result.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB812FD415C00AC79F3 /* result.png */; };
+		56A4AEE812FD415C00AC79F3 /* Retake_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEB912FD415C00AC79F3 /* Retake_button.png */; };
+		56A4AEE912FD415C00AC79F3 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEBA12FD415C00AC79F3 /* settings.png */; };
+		56A4AEEA12FD415C00AC79F3 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEBB12FD415C00AC79F3 /* wrong.png */; };
+		56A4AEEB12FD415C00AC79F3 /* WS_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AEBC12FD415C00AC79F3 /* WS_BG.png */; };
+		56A4AEF012FD41D300AC79F3 /* GREWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AEED12FD41D300AC79F3 /* GREWord.m */; };
+		56A4AEF112FD41D300AC79F3 /* GREWordsMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AEEF12FD41D300AC79F3 /* GREWordsMgr.m */; };
+		56A4AF0312FD454A00AC79F3 /* AlphabetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AF0112FD454A00AC79F3 /* AlphabetsViewController.m */; };
+		56A4AF0412FD454A00AC79F3 /* AlphabetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF0212FD454A00AC79F3 /* AlphabetsViewController.xib */; };
+		56A4AF0812FD455800AC79F3 /* GREListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AF0612FD455800AC79F3 /* GREListViewController.m */; };
+		56A4AF0912FD455800AC79F3 /* GREListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF0712FD455800AC79F3 /* GREListViewController.xib */; };
+		56A4AF0D12FD456600AC79F3 /* GREWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AF0B12FD456600AC79F3 /* GREWordViewController.m */; };
+		56A4AF0E12FD456600AC79F3 /* GREWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF0C12FD456600AC79F3 /* GREWordViewController.xib */; };
+		56A4AF1212FD457300AC79F3 /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AF1012FD457300AC79F3 /* CreditsViewController.m */; };
+		56A4AF1312FD457300AC79F3 /* CreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF1112FD457300AC79F3 /* CreditsViewController.xib */; };
+		56A4AF1712FD457D00AC79F3 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A4AF1512FD457D00AC79F3 /* QuizViewController.m */; };
+		56A4AF1812FD457D00AC79F3 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF1612FD457D00AC79F3 /* QuizViewController.xib */; };
+		56A4AF2C12FD521800AC79F3 /* GRE_TITLE-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF2B12FD521800AC79F3 /* GRE_TITLE-1.png */; };
+		56A4AF8212FD568E00AC79F3 /* GREWords_A.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6712FD568E00AC79F3 /* GREWords_A.plist */; };
+		56A4AF8312FD568E00AC79F3 /* GREWords_B.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6812FD568E00AC79F3 /* GREWords_B.plist */; };
+		56A4AF8412FD568E00AC79F3 /* GREWords_C.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6912FD568E00AC79F3 /* GREWords_C.plist */; };
+		56A4AF8512FD568E00AC79F3 /* GREWords_D.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6A12FD568E00AC79F3 /* GREWords_D.plist */; };
+		56A4AF8612FD568E00AC79F3 /* GREWords_E.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6B12FD568E00AC79F3 /* GREWords_E.plist */; };
+		56A4AF8712FD568E00AC79F3 /* GREWords_F.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6C12FD568E00AC79F3 /* GREWords_F.plist */; };
+		56A4AF8812FD568E00AC79F3 /* GREWords_G.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6D12FD568E00AC79F3 /* GREWords_G.plist */; };
+		56A4AF8912FD568E00AC79F3 /* GREWords_H.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6E12FD568E00AC79F3 /* GREWords_H.plist */; };
+		56A4AF8A12FD568E00AC79F3 /* GREWords_I.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF6F12FD568E00AC79F3 /* GREWords_I.plist */; };
+		56A4AF8B12FD568E00AC79F3 /* GREWords_J.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7012FD568E00AC79F3 /* GREWords_J.plist */; };
+		56A4AF8C12FD568E00AC79F3 /* GREWords_K.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7112FD568E00AC79F3 /* GREWords_K.plist */; };
+		56A4AF8D12FD568E00AC79F3 /* GREWords_L.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7212FD568E00AC79F3 /* GREWords_L.plist */; };
+		56A4AF8E12FD568E00AC79F3 /* GREWords_M.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7312FD568E00AC79F3 /* GREWords_M.plist */; };
+		56A4AF8F12FD568E00AC79F3 /* GREWords_N.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7412FD568E00AC79F3 /* GREWords_N.plist */; };
+		56A4AF9012FD568E00AC79F3 /* GREWords_O.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7512FD568E00AC79F3 /* GREWords_O.plist */; };
+		56A4AF9112FD568E00AC79F3 /* GREWords_P.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7612FD568E00AC79F3 /* GREWords_P.plist */; };
+		56A4AF9212FD568E00AC79F3 /* GREWords_Q.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7712FD568E00AC79F3 /* GREWords_Q.plist */; };
+		56A4AF9312FD568E00AC79F3 /* GREWords_R.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7812FD568E00AC79F3 /* GREWords_R.plist */; };
+		56A4AF9412FD568E00AC79F3 /* GREWords_S.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7912FD568E00AC79F3 /* GREWords_S.plist */; };
+		56A4AF9512FD568E00AC79F3 /* GREWords_T.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7A12FD568E00AC79F3 /* GREWords_T.plist */; };
+		56A4AF9612FD568E00AC79F3 /* GREWords_U.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7B12FD568E00AC79F3 /* GREWords_U.plist */; };
+		56A4AF9712FD568E00AC79F3 /* GREWords_V.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7C12FD568E00AC79F3 /* GREWords_V.plist */; };
+		56A4AF9812FD568E00AC79F3 /* GREWords_W.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7D12FD568E00AC79F3 /* GREWords_W.plist */; };
+		56A4AF9912FD568E00AC79F3 /* GREWords_X.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7E12FD568E00AC79F3 /* GREWords_X.plist */; };
+		56A4AF9A12FD568E00AC79F3 /* GREWords_Y.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF7F12FD568E00AC79F3 /* GREWords_Y.plist */; };
+		56A4AF9B12FD568E00AC79F3 /* GREWords_Z.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF8012FD568E00AC79F3 /* GREWords_Z.plist */; };
+		56A4AF9C12FD568E00AC79F3 /* TotalWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56A4AF8112FD568E00AC79F3 /* TotalWords.plist */; };
+		56BE121213BF6AC600662323 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE121113BF6AC600662323 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TapGREAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGREAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TapGREAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGREAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TapGRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* TapGREViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TapGREViewController.xib; path = ../TapGREViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TapGREViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGREViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TapGREViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapGREViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TapGRE_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapGRE_Prefix.pch; sourceTree = "<group>"; };
+		562BE3DD130BD34900C69FAE /* 57_TapGRE_Free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57_TapGRE_Free.png; sourceTree = "<group>"; };
+		562BE3DE130BD34900C69FAE /* 512_TapGRE_Free.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512_TapGRE_Free.png; sourceTree = "<group>"; };
+		562F147B130BBC4F00E68750 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		56A4AE6012FD3B3000AC79F3 /* CSqliteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteController.h; sourceTree = "<group>"; };
+		56A4AE6112FD3B3000AC79F3 /* CSqliteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteController.m; sourceTree = "<group>"; };
+		56A4AE6312FD3B3E00AC79F3 /* grewords.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = grewords.sqlite; sourceTree = "<group>"; };
+		56A4AE6512FD3D1300AC79F3 /* 57_icon_Tap-GRE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57_icon_Tap-GRE.png"; sourceTree = "<group>"; };
+		56A4AE6612FD3D1300AC79F3 /* 512_icon_Tap-GRE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "512_icon_Tap-GRE.png"; sourceTree = "<group>"; };
+		56A4AE6912FD3EE400AC79F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		56A4AE8E12FD415C00AC79F3 /* Back-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-Button.png"; sourceTree = "<group>"; };
+		56A4AE8F12FD415C00AC79F3 /* bookmarks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmarks.png; sourceTree = "<group>"; };
+		56A4AE9012FD415C00AC79F3 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		56A4AE9112FD415C00AC79F3 /* Credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Credits.png; sourceTree = "<group>"; };
+		56A4AE9212FD415C00AC79F3 /* Done_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Done_button.png; sourceTree = "<group>"; };
+		56A4AE9312FD415C00AC79F3 /* Easy-Button_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy-Button_Normal.png"; sourceTree = "<group>"; };
+		56A4AE9412FD415C00AC79F3 /* Easy-Button_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Easy-Button_Selected.png"; sourceTree = "<group>"; };
+		56A4AE9512FD415C00AC79F3 /* Edit_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edit_button.png; sourceTree = "<group>"; };
+		56A4AE9612FD415C00AC79F3 /* Exit_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exit_Button.png; sourceTree = "<group>"; };
+		56A4AE9712FD415C00AC79F3 /* gre_words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gre_words.png; sourceTree = "<group>"; };
+		56A4AE9812FD415C00AC79F3 /* green_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_normal.png; sourceTree = "<group>"; };
+		56A4AE9912FD415C00AC79F3 /* green_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_selected.png; sourceTree = "<group>"; };
+		56A4AE9A12FD415C00AC79F3 /* Hard-Button_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard-Button_Normal.png"; sourceTree = "<group>"; };
+		56A4AE9B12FD415C00AC79F3 /* Hard-Button_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard-Button_Selected.png"; sourceTree = "<group>"; };
+		56A4AE9C12FD415C00AC79F3 /* i0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0000.png; sourceTree = "<group>"; };
+		56A4AE9D12FD415C00AC79F3 /* i0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0001.png; sourceTree = "<group>"; };
+		56A4AE9E12FD415C00AC79F3 /* i0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0002.png; sourceTree = "<group>"; };
+		56A4AE9F12FD415C00AC79F3 /* i0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0003.png; sourceTree = "<group>"; };
+		56A4AEA012FD415C00AC79F3 /* i0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0004.png; sourceTree = "<group>"; };
+		56A4AEA112FD415C00AC79F3 /* i0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0005.png; sourceTree = "<group>"; };
+		56A4AEA212FD415C00AC79F3 /* i0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0006.png; sourceTree = "<group>"; };
+		56A4AEA312FD415C00AC79F3 /* i0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0007.png; sourceTree = "<group>"; };
+		56A4AEA412FD415C00AC79F3 /* i0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0008.png; sourceTree = "<group>"; };
+		56A4AEA512FD415C00AC79F3 /* i0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0009.png; sourceTree = "<group>"; };
+		56A4AEA612FD415C00AC79F3 /* i0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0010.png; sourceTree = "<group>"; };
+		56A4AEA712FD415C00AC79F3 /* i0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0011.png; sourceTree = "<group>"; };
+		56A4AEA812FD415C00AC79F3 /* i0012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0012.png; sourceTree = "<group>"; };
+		56A4AEA912FD415C00AC79F3 /* i0013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0013.png; sourceTree = "<group>"; };
+		56A4AEAA12FD415C00AC79F3 /* i0014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0014.png; sourceTree = "<group>"; };
+		56A4AEAB12FD415C00AC79F3 /* i0015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i0015.png; sourceTree = "<group>"; };
+		56A4AEAC12FD415C00AC79F3 /* Medium-Button_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medium-Button_Normal.png"; sourceTree = "<group>"; };
+		56A4AEAD12FD415C00AC79F3 /* Meduim-Button_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meduim-Button_Selected.png"; sourceTree = "<group>"; };
+		56A4AEAE12FD415C00AC79F3 /* Menu-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-Button.png"; sourceTree = "<group>"; };
+		56A4AEAF12FD415C00AC79F3 /* New_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New_button.png; sourceTree = "<group>"; };
+		56A4AEB012FD415C00AC79F3 /* Next-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Next-Button.png"; sourceTree = "<group>"; };
+		56A4AEB112FD415C00AC79F3 /* orange_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_normal.png; sourceTree = "<group>"; };
+		56A4AEB212FD415C00AC79F3 /* orange_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_selected.png; sourceTree = "<group>"; };
+		56A4AEB312FD415C00AC79F3 /* Previous-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Previous-Button.png"; sourceTree = "<group>"; };
+		56A4AEB412FD415C00AC79F3 /* Quiz_mode-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quiz_mode-1.png"; sourceTree = "<group>"; };
+		56A4AEB512FD415C00AC79F3 /* quiz_mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_mode.png; sourceTree = "<group>"; };
+		56A4AEB612FD415C00AC79F3 /* red_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_normal.png; sourceTree = "<group>"; };
+		56A4AEB712FD415C00AC79F3 /* red_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_selected.png; sourceTree = "<group>"; };
+		56A4AEB812FD415C00AC79F3 /* result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result.png; sourceTree = "<group>"; };
+		56A4AEB912FD415C00AC79F3 /* Retake_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Retake_button.png; sourceTree = "<group>"; };
+		56A4AEBA12FD415C00AC79F3 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		56A4AEBB12FD415C00AC79F3 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		56A4AEBC12FD415C00AC79F3 /* WS_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WS_BG.png; sourceTree = "<group>"; };
+		56A4AEEC12FD41D300AC79F3 /* GREWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREWord.h; sourceTree = "<group>"; };
+		56A4AEED12FD41D300AC79F3 /* GREWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREWord.m; sourceTree = "<group>"; };
+		56A4AEEE12FD41D300AC79F3 /* GREWordsMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREWordsMgr.h; sourceTree = "<group>"; };
+		56A4AEEF12FD41D300AC79F3 /* GREWordsMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREWordsMgr.m; sourceTree = "<group>"; };
+		56A4AF0012FD454A00AC79F3 /* AlphabetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphabetsViewController.h; sourceTree = "<group>"; };
+		56A4AF0112FD454A00AC79F3 /* AlphabetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphabetsViewController.m; sourceTree = "<group>"; };
+		56A4AF0212FD454A00AC79F3 /* AlphabetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlphabetsViewController.xib; sourceTree = "<group>"; };
+		56A4AF0512FD455800AC79F3 /* GREListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREListViewController.h; sourceTree = "<group>"; };
+		56A4AF0612FD455800AC79F3 /* GREListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREListViewController.m; sourceTree = "<group>"; };
+		56A4AF0712FD455800AC79F3 /* GREListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GREListViewController.xib; sourceTree = "<group>"; };
+		56A4AF0A12FD456600AC79F3 /* GREWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GREWordViewController.h; sourceTree = "<group>"; };
+		56A4AF0B12FD456600AC79F3 /* GREWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GREWordViewController.m; sourceTree = "<group>"; };
+		56A4AF0C12FD456600AC79F3 /* GREWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GREWordViewController.xib; sourceTree = "<group>"; };
+		56A4AF0F12FD457300AC79F3 /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		56A4AF1012FD457300AC79F3 /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		56A4AF1112FD457300AC79F3 /* CreditsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditsViewController.xib; sourceTree = "<group>"; };
+		56A4AF1412FD457D00AC79F3 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		56A4AF1512FD457D00AC79F3 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		56A4AF1612FD457D00AC79F3 /* QuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
+		56A4AF2B12FD521800AC79F3 /* GRE_TITLE-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GRE_TITLE-1.png"; sourceTree = "<group>"; };
+		56A4AF6712FD568E00AC79F3 /* GREWords_A.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_A.plist; sourceTree = "<group>"; };
+		56A4AF6812FD568E00AC79F3 /* GREWords_B.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_B.plist; sourceTree = "<group>"; };
+		56A4AF6912FD568E00AC79F3 /* GREWords_C.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_C.plist; sourceTree = "<group>"; };
+		56A4AF6A12FD568E00AC79F3 /* GREWords_D.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_D.plist; sourceTree = "<group>"; };
+		56A4AF6B12FD568E00AC79F3 /* GREWords_E.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_E.plist; sourceTree = "<group>"; };
+		56A4AF6C12FD568E00AC79F3 /* GREWords_F.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_F.plist; sourceTree = "<group>"; };
+		56A4AF6D12FD568E00AC79F3 /* GREWords_G.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_G.plist; sourceTree = "<group>"; };
+		56A4AF6E12FD568E00AC79F3 /* GREWords_H.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_H.plist; sourceTree = "<group>"; };
+		56A4AF6F12FD568E00AC79F3 /* GREWords_I.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_I.plist; sourceTree = "<group>"; };
+		56A4AF7012FD568E00AC79F3 /* GREWords_J.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_J.plist; sourceTree = "<group>"; };
+		56A4AF7112FD568E00AC79F3 /* GREWords_K.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_K.plist; sourceTree = "<group>"; };
+		56A4AF7212FD568E00AC79F3 /* GREWords_L.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_L.plist; sourceTree = "<group>"; };
+		56A4AF7312FD568E00AC79F3 /* GREWords_M.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_M.plist; sourceTree = "<group>"; };
+		56A4AF7412FD568E00AC79F3 /* GREWords_N.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_N.plist; sourceTree = "<group>"; };
+		56A4AF7512FD568E00AC79F3 /* GREWords_O.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_O.plist; sourceTree = "<group>"; };
+		56A4AF7612FD568E00AC79F3 /* GREWords_P.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_P.plist; sourceTree = "<group>"; };
+		56A4AF7712FD568E00AC79F3 /* GREWords_Q.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_Q.plist; sourceTree = "<group>"; };
+		56A4AF7812FD568E00AC79F3 /* GREWords_R.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_R.plist; sourceTree = "<group>"; };
+		56A4AF7912FD568E00AC79F3 /* GREWords_S.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_S.plist; sourceTree = "<group>"; };
+		56A4AF7A12FD568E00AC79F3 /* GREWords_T.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_T.plist; sourceTree = "<group>"; };
+		56A4AF7B12FD568E00AC79F3 /* GREWords_U.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_U.plist; sourceTree = "<group>"; };
+		56A4AF7C12FD568E00AC79F3 /* GREWords_V.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_V.plist; sourceTree = "<group>"; };
+		56A4AF7D12FD568E00AC79F3 /* GREWords_W.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_W.plist; sourceTree = "<group>"; };
+		56A4AF7E12FD568E00AC79F3 /* GREWords_X.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_X.plist; sourceTree = "<group>"; };
+		56A4AF7F12FD568E00AC79F3 /* GREWords_Y.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_Y.plist; sourceTree = "<group>"; };
+		56A4AF8012FD568E00AC79F3 /* GREWords_Z.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GREWords_Z.plist; sourceTree = "<group>"; };
+		56A4AF8112FD568E00AC79F3 /* TotalWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TotalWords.plist; sourceTree = "<group>"; };
+		56BE121113BF6AC600662323 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* TapGRE-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TapGRE-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				56BE121213BF6AC600662323 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56A4AEF212FD441000AC79F3 /* Utilities */,
+				1D3623240D0F684500981E51 /* TapGREAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TapGREAppDelegate.m */,
+				56A4AEF312FD441800AC79F3 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TapGRE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				562F147B130BBC4F00E68750 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TapGRE_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				562BE3DD130BD34900C69FAE /* 57_TapGRE_Free.png */,
+				562BE3DE130BD34900C69FAE /* 512_TapGRE_Free.png */,
+				56A4AF6612FD568E00AC79F3 /* plists */,
+				56A4AF2B12FD521800AC79F3 /* GRE_TITLE-1.png */,
+				56A4AE8D12FD415C00AC79F3 /* Images */,
+				56A4AE6912FD3EE400AC79F3 /* Default.png */,
+				56A4AE6512FD3D1300AC79F3 /* 57_icon_Tap-GRE.png */,
+				56A4AE6612FD3D1300AC79F3 /* 512_icon_Tap-GRE.png */,
+				56A4AE6312FD3B3E00AC79F3 /* grewords.sqlite */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TapGRE-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				56BE121113BF6AC600662323 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56A4AE8D12FD415C00AC79F3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				56A4AE8E12FD415C00AC79F3 /* Back-Button.png */,
+				56A4AE8F12FD415C00AC79F3 /* bookmarks.png */,
+				56A4AE9012FD415C00AC79F3 /* correct.png */,
+				56A4AE9112FD415C00AC79F3 /* Credits.png */,
+				56A4AE9212FD415C00AC79F3 /* Done_button.png */,
+				56A4AE9312FD415C00AC79F3 /* Easy-Button_Normal.png */,
+				56A4AE9412FD415C00AC79F3 /* Easy-Button_Selected.png */,
+				56A4AE9512FD415C00AC79F3 /* Edit_button.png */,
+				56A4AE9612FD415C00AC79F3 /* Exit_Button.png */,
+				56A4AE9712FD415C00AC79F3 /* gre_words.png */,
+				56A4AE9812FD415C00AC79F3 /* green_normal.png */,
+				56A4AE9912FD415C00AC79F3 /* green_selected.png */,
+				56A4AE9A12FD415C00AC79F3 /* Hard-Button_Normal.png */,
+				56A4AE9B12FD415C00AC79F3 /* Hard-Button_Selected.png */,
+				56A4AE9C12FD415C00AC79F3 /* i0000.png */,
+				56A4AE9D12FD415C00AC79F3 /* i0001.png */,
+				56A4AE9E12FD415C00AC79F3 /* i0002.png */,
+				56A4AE9F12FD415C00AC79F3 /* i0003.png */,
+				56A4AEA012FD415C00AC79F3 /* i0004.png */,
+				56A4AEA112FD415C00AC79F3 /* i0005.png */,
+				56A4AEA212FD415C00AC79F3 /* i0006.png */,
+				56A4AEA312FD415C00AC79F3 /* i0007.png */,
+				56A4AEA412FD415C00AC79F3 /* i0008.png */,
+				56A4AEA512FD415C00AC79F3 /* i0009.png */,
+				56A4AEA612FD415C00AC79F3 /* i0010.png */,
+				56A4AEA712FD415C00AC79F3 /* i0011.png */,
+				56A4AEA812FD415C00AC79F3 /* i0012.png */,
+				56A4AEA912FD415C00AC79F3 /* i0013.png */,
+				56A4AEAA12FD415C00AC79F3 /* i0014.png */,
+				56A4AEAB12FD415C00AC79F3 /* i0015.png */,
+				56A4AEAC12FD415C00AC79F3 /* Medium-Button_Normal.png */,
+				56A4AEAD12FD415C00AC79F3 /* Meduim-Button_Selected.png */,
+				56A4AEAE12FD415C00AC79F3 /* Menu-Button.png */,
+				56A4AEAF12FD415C00AC79F3 /* New_button.png */,
+				56A4AEB012FD415C00AC79F3 /* Next-Button.png */,
+				56A4AEB112FD415C00AC79F3 /* orange_normal.png */,
+				56A4AEB212FD415C00AC79F3 /* orange_selected.png */,
+				56A4AEB312FD415C00AC79F3 /* Previous-Button.png */,
+				56A4AEB412FD415C00AC79F3 /* Quiz_mode-1.png */,
+				56A4AEB512FD415C00AC79F3 /* quiz_mode.png */,
+				56A4AEB612FD415C00AC79F3 /* red_normal.png */,
+				56A4AEB712FD415C00AC79F3 /* red_selected.png */,
+				56A4AEB812FD415C00AC79F3 /* result.png */,
+				56A4AEB912FD415C00AC79F3 /* Retake_button.png */,
+				56A4AEBA12FD415C00AC79F3 /* settings.png */,
+				56A4AEBB12FD415C00AC79F3 /* wrong.png */,
+				56A4AEBC12FD415C00AC79F3 /* WS_BG.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		56A4AEF212FD441000AC79F3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56A4AEEC12FD41D300AC79F3 /* GREWord.h */,
+				56A4AEED12FD41D300AC79F3 /* GREWord.m */,
+				56A4AEEE12FD41D300AC79F3 /* GREWordsMgr.h */,
+				56A4AEEF12FD41D300AC79F3 /* GREWordsMgr.m */,
+				56A4AE6012FD3B3000AC79F3 /* CSqliteController.h */,
+				56A4AE6112FD3B3000AC79F3 /* CSqliteController.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		56A4AEF312FD441800AC79F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* TapGREViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TapGREViewController.m */,
+				2899E5210DE3E06400AC0155 /* TapGREViewController.xib */,
+				56A4AF0012FD454A00AC79F3 /* AlphabetsViewController.h */,
+				56A4AF0112FD454A00AC79F3 /* AlphabetsViewController.m */,
+				56A4AF0212FD454A00AC79F3 /* AlphabetsViewController.xib */,
+				56A4AF0512FD455800AC79F3 /* GREListViewController.h */,
+				56A4AF0612FD455800AC79F3 /* GREListViewController.m */,
+				56A4AF0712FD455800AC79F3 /* GREListViewController.xib */,
+				56A4AF0A12FD456600AC79F3 /* GREWordViewController.h */,
+				56A4AF0B12FD456600AC79F3 /* GREWordViewController.m */,
+				56A4AF0C12FD456600AC79F3 /* GREWordViewController.xib */,
+				56A4AF0F12FD457300AC79F3 /* CreditsViewController.h */,
+				56A4AF1012FD457300AC79F3 /* CreditsViewController.m */,
+				56A4AF1112FD457300AC79F3 /* CreditsViewController.xib */,
+				56A4AF1412FD457D00AC79F3 /* QuizViewController.h */,
+				56A4AF1512FD457D00AC79F3 /* QuizViewController.m */,
+				56A4AF1612FD457D00AC79F3 /* QuizViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		56A4AF6612FD568E00AC79F3 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				56A4AF6712FD568E00AC79F3 /* GREWords_A.plist */,
+				56A4AF6812FD568E00AC79F3 /* GREWords_B.plist */,
+				56A4AF6912FD568E00AC79F3 /* GREWords_C.plist */,
+				56A4AF6A12FD568E00AC79F3 /* GREWords_D.plist */,
+				56A4AF6B12FD568E00AC79F3 /* GREWords_E.plist */,
+				56A4AF6C12FD568E00AC79F3 /* GREWords_F.plist */,
+				56A4AF6D12FD568E00AC79F3 /* GREWords_G.plist */,
+				56A4AF6E12FD568E00AC79F3 /* GREWords_H.plist */,
+				56A4AF6F12FD568E00AC79F3 /* GREWords_I.plist */,
+				56A4AF7012FD568E00AC79F3 /* GREWords_J.plist */,
+				56A4AF7112FD568E00AC79F3 /* GREWords_K.plist */,
+				56A4AF7212FD568E00AC79F3 /* GREWords_L.plist */,
+				56A4AF7312FD568E00AC79F3 /* GREWords_M.plist */,
+				56A4AF7412FD568E00AC79F3 /* GREWords_N.plist */,
+				56A4AF7512FD568E00AC79F3 /* GREWords_O.plist */,
+				56A4AF7612FD568E00AC79F3 /* GREWords_P.plist */,
+				56A4AF7712FD568E00AC79F3 /* GREWords_Q.plist */,
+				56A4AF7812FD568E00AC79F3 /* GREWords_R.plist */,
+				56A4AF7912FD568E00AC79F3 /* GREWords_S.plist */,
+				56A4AF7A12FD568E00AC79F3 /* GREWords_T.plist */,
+				56A4AF7B12FD568E00AC79F3 /* GREWords_U.plist */,
+				56A4AF7C12FD568E00AC79F3 /* GREWords_V.plist */,
+				56A4AF7D12FD568E00AC79F3 /* GREWords_W.plist */,
+				56A4AF7E12FD568E00AC79F3 /* GREWords_X.plist */,
+				56A4AF7F12FD568E00AC79F3 /* GREWords_Y.plist */,
+				56A4AF8012FD568E00AC79F3 /* GREWords_Z.plist */,
+				56A4AF8112FD568E00AC79F3 /* TotalWords.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TapGRE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TapGRE" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGRE;
+			productName = TapGRE;
+			productReference = 1D6058910D05DD3D006BFB54 /* TapGRE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TapGRE" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TapGRE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* TapGREViewController.xib in Resources */,
+				56A4AE6412FD3B3E00AC79F3 /* grewords.sqlite in Resources */,
+				56A4AE6712FD3D1300AC79F3 /* 57_icon_Tap-GRE.png in Resources */,
+				56A4AE6812FD3D1300AC79F3 /* 512_icon_Tap-GRE.png in Resources */,
+				56A4AE6A12FD3EE400AC79F3 /* Default.png in Resources */,
+				56A4AEBD12FD415C00AC79F3 /* Back-Button.png in Resources */,
+				56A4AEBE12FD415C00AC79F3 /* bookmarks.png in Resources */,
+				56A4AEBF12FD415C00AC79F3 /* correct.png in Resources */,
+				56A4AEC012FD415C00AC79F3 /* Credits.png in Resources */,
+				56A4AEC112FD415C00AC79F3 /* Done_button.png in Resources */,
+				56A4AEC212FD415C00AC79F3 /* Easy-Button_Normal.png in Resources */,
+				56A4AEC312FD415C00AC79F3 /* Easy-Button_Selected.png in Resources */,
+				56A4AEC412FD415C00AC79F3 /* Edit_button.png in Resources */,
+				56A4AEC512FD415C00AC79F3 /* Exit_Button.png in Resources */,
+				56A4AEC612FD415C00AC79F3 /* gre_words.png in Resources */,
+				56A4AEC712FD415C00AC79F3 /* green_normal.png in Resources */,
+				56A4AEC812FD415C00AC79F3 /* green_selected.png in Resources */,
+				56A4AEC912FD415C00AC79F3 /* Hard-Button_Normal.png in Resources */,
+				56A4AECA12FD415C00AC79F3 /* Hard-Button_Selected.png in Resources */,
+				56A4AECB12FD415C00AC79F3 /* i0000.png in Resources */,
+				56A4AECC12FD415C00AC79F3 /* i0001.png in Resources */,
+				56A4AECD12FD415C00AC79F3 /* i0002.png in Resources */,
+				56A4AECE12FD415C00AC79F3 /* i0003.png in Resources */,
+				56A4AECF12FD415C00AC79F3 /* i0004.png in Resources */,
+				56A4AED012FD415C00AC79F3 /* i0005.png in Resources */,
+				56A4AED112FD415C00AC79F3 /* i0006.png in Resources */,
+				56A4AED212FD415C00AC79F3 /* i0007.png in Resources */,
+				56A4AED312FD415C00AC79F3 /* i0008.png in Resources */,
+				56A4AED412FD415C00AC79F3 /* i0009.png in Resources */,
+				56A4AED512FD415C00AC79F3 /* i0010.png in Resources */,
+				56A4AED612FD415C00AC79F3 /* i0011.png in Resources */,
+				56A4AED712FD415C00AC79F3 /* i0012.png in Resources */,
+				56A4AED812FD415C00AC79F3 /* i0013.png in Resources */,
+				56A4AED912FD415C00AC79F3 /* i0014.png in Resources */,
+				56A4AEDA12FD415C00AC79F3 /* i0015.png in Resources */,
+				56A4AEDB12FD415C00AC79F3 /* Medium-Button_Normal.png in Resources */,
+				56A4AEDC12FD415C00AC79F3 /* Meduim-Button_Selected.png in Resources */,
+				56A4AEDD12FD415C00AC79F3 /* Menu-Button.png in Resources */,
+				56A4AEDE12FD415C00AC79F3 /* New_button.png in Resources */,
+				56A4AEDF12FD415C00AC79F3 /* Next-Button.png in Resources */,
+				56A4AEE012FD415C00AC79F3 /* orange_normal.png in Resources */,
+				56A4AEE112FD415C00AC79F3 /* orange_selected.png in Resources */,
+				56A4AEE212FD415C00AC79F3 /* Previous-Button.png in Resources */,
+				56A4AEE312FD415C00AC79F3 /* Quiz_mode-1.png in Resources */,
+				56A4AEE412FD415C00AC79F3 /* quiz_mode.png in Resources */,
+				56A4AEE512FD415C00AC79F3 /* red_normal.png in Resources */,
+				56A4AEE612FD415C00AC79F3 /* red_selected.png in Resources */,
+				56A4AEE712FD415C00AC79F3 /* result.png in Resources */,
+				56A4AEE812FD415C00AC79F3 /* Retake_button.png in Resources */,
+				56A4AEE912FD415C00AC79F3 /* settings.png in Resources */,
+				56A4AEEA12FD415C00AC79F3 /* wrong.png in Resources */,
+				56A4AEEB12FD415C00AC79F3 /* WS_BG.png in Resources */,
+				56A4AF0412FD454A00AC79F3 /* AlphabetsViewController.xib in Resources */,
+				56A4AF0912FD455800AC79F3 /* GREListViewController.xib in Resources */,
+				56A4AF0E12FD456600AC79F3 /* GREWordViewController.xib in Resources */,
+				56A4AF1312FD457300AC79F3 /* CreditsViewController.xib in Resources */,
+				56A4AF1812FD457D00AC79F3 /* QuizViewController.xib in Resources */,
+				56A4AF2C12FD521800AC79F3 /* GRE_TITLE-1.png in Resources */,
+				56A4AF8212FD568E00AC79F3 /* GREWords_A.plist in Resources */,
+				56A4AF8312FD568E00AC79F3 /* GREWords_B.plist in Resources */,
+				56A4AF8412FD568E00AC79F3 /* GREWords_C.plist in Resources */,
+				56A4AF8512FD568E00AC79F3 /* GREWords_D.plist in Resources */,
+				56A4AF8612FD568E00AC79F3 /* GREWords_E.plist in Resources */,
+				56A4AF8712FD568E00AC79F3 /* GREWords_F.plist in Resources */,
+				56A4AF8812FD568E00AC79F3 /* GREWords_G.plist in Resources */,
+				56A4AF8912FD568E00AC79F3 /* GREWords_H.plist in Resources */,
+				56A4AF8A12FD568E00AC79F3 /* GREWords_I.plist in Resources */,
+				56A4AF8B12FD568E00AC79F3 /* GREWords_J.plist in Resources */,
+				56A4AF8C12FD568E00AC79F3 /* GREWords_K.plist in Resources */,
+				56A4AF8D12FD568E00AC79F3 /* GREWords_L.plist in Resources */,
+				56A4AF8E12FD568E00AC79F3 /* GREWords_M.plist in Resources */,
+				56A4AF8F12FD568E00AC79F3 /* GREWords_N.plist in Resources */,
+				56A4AF9012FD568E00AC79F3 /* GREWords_O.plist in Resources */,
+				56A4AF9112FD568E00AC79F3 /* GREWords_P.plist in Resources */,
+				56A4AF9212FD568E00AC79F3 /* GREWords_Q.plist in Resources */,
+				56A4AF9312FD568E00AC79F3 /* GREWords_R.plist in Resources */,
+				56A4AF9412FD568E00AC79F3 /* GREWords_S.plist in Resources */,
+				56A4AF9512FD568E00AC79F3 /* GREWords_T.plist in Resources */,
+				56A4AF9612FD568E00AC79F3 /* GREWords_U.plist in Resources */,
+				56A4AF9712FD568E00AC79F3 /* GREWords_V.plist in Resources */,
+				56A4AF9812FD568E00AC79F3 /* GREWords_W.plist in Resources */,
+				56A4AF9912FD568E00AC79F3 /* GREWords_X.plist in Resources */,
+				56A4AF9A12FD568E00AC79F3 /* GREWords_Y.plist in Resources */,
+				56A4AF9B12FD568E00AC79F3 /* GREWords_Z.plist in Resources */,
+				56A4AF9C12FD568E00AC79F3 /* TotalWords.plist in Resources */,
+				562BE3DF130BD34900C69FAE /* 57_TapGRE_Free.png in Resources */,
+				562BE3E0130BD34900C69FAE /* 512_TapGRE_Free.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TapGREAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TapGREViewController.m in Sources */,
+				56A4AE6212FD3B3000AC79F3 /* CSqliteController.m in Sources */,
+				56A4AEF012FD41D300AC79F3 /* GREWord.m in Sources */,
+				56A4AEF112FD41D300AC79F3 /* GREWordsMgr.m in Sources */,
+				56A4AF0312FD454A00AC79F3 /* AlphabetsViewController.m in Sources */,
+				56A4AF0812FD455800AC79F3 /* GREListViewController.m in Sources */,
+				56A4AF0D12FD456600AC79F3 /* GREWordViewController.m in Sources */,
+				56A4AF1212FD457300AC79F3 /* CreditsViewController.m in Sources */,
+				56A4AF1712FD457D00AC79F3 /* QuizViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/RanaHammad/Development/SourceCode(s)/iPhone:ipad/FL/AhmadIftikhar/GRE/Source(s)/iPhone/TapGRE/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapGRE_Prefix.pch;
+				INFOPLIST_FILE = "TapGRE-Info.plist";
+				PRODUCT_NAME = TapGRE;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/RanaHammad/Development/SourceCode(s)/iPhone:ipad/FL/AhmadIftikhar/GRE/Source(s)/iPhone/TapGRE/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapGRE_Prefix.pch;
+				INFOPLIST_FILE = "TapGRE-Info.plist";
+				PRODUCT_NAME = TapGRE;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562F1478130BBC3B00E68750 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		562F1479130BBC3B00E68750 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapGRE_Prefix.pch;
+				INFOPLIST_FILE = "TapGRE-Info.plist";
+				PRODUCT_NAME = "TapGRE Free";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ahmad Iftikhar";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "690AB214-0A4D-46EC-BB28-3008E65FC97C";
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TapGRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				562F1479130BBC3B00E68750 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TapGRE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				562F1478130BBC3B00E68750 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

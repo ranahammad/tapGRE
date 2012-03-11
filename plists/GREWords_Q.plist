@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>qualm</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Momentary faint or sick feeling, sinking of heart</string>
+		<key>Sentence</key>
+		<string>He seemed to have absolutely no qualms about stealing money from his father&apos;s wallet, something I could never have imagined.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>quandary</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Practical dilemma, or a difficult situation</string>
+		<key>Sentence</key>
+		<string>He has received offers of admission from two equally well reputed universities, and he is in a quandary as to which one to accept</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>quarantine</string>
+		<key>Type</key>
+		<string>verb &amp; noun</string>
+		<key>Meaning</key>
+		<string>To isolate a person or animals to prevent spread of infection</string>
+		<key>Sentence</key>
+		<string>The zoo authorities have decided to quarantine the two monkeys who have been found to be infected with a deadly virus.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>quarry</string>
+		<key>Type</key>
+		<string>noun &amp; verb</string>
+		<key>Meaning</key>
+		<string>1) Victim, Object of a hunt 2) Excavation made by taking stone for building from its bed</string>
+		<key>Sentence</key>
+		<string>The tiger pursued its quarry until it was thoroughly exhausted, and then easily overpowered it</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>quell</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>Forcibly put an end to, Overpower</string>
+		<key>Sentence</key>
+		<string>The armed forced were able to successfully quell three attempts by the enemy forces to capture the peak.</string>
+	</dict>
+</array>
+</plist>

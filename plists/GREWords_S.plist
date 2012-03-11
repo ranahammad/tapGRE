@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>sentient</string>
+		<key>Type</key>
+		<string>adj</string>
+		<key>Meaning</key>
+		<string>Capable of feeling</string>
+		<key>Sentence</key>
+		<string>It is difficult for any sentient person to understand how a murderer can so ruthlessly take someone else&apos;s life.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>snitch</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>To inform secretly. Also, to steal by taking quickly</string>
+		<key>Sentence</key>
+		<string>I&apos;ll never forgive him for snitching to my boss that I have been playing games on the office computer, when he has been doing the same</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>spoliation</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Plunder, Violent and intentional destruction</string>
+		<key>Sentence</key>
+		<string>The destruction of Buddhist statues in Afghanistan has been described as an act of shameless spoliation done with the intention of attracting world attention</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>subliminal</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Below the level of conscious awareness</string>
+		<key>Sentence</key>
+		<string>They decided that the Prime Minister would be interviewed with a backdrop of industry and rice field, sending the subliminal message to the people that he cared for workers and farmers.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>subsume</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>Bring or include under a particular classification</string>
+		<key>Sentence</key>
+		<string>Soldiers from different countries have been subsumed into the UN Peace Keeping Force.</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>lesion</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Injury, Damage, A morbid change in the structure of organs in human body</string>
+		<key>Sentence</key>
+		<string>The X-ray revealed severe lesions to the left side of the lower rib cage, and the doctor immediately decided on operating the patient</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>lax</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>lacking attention or severity</string>
+		<key>Sentence</key>
+		<string>While most of the government policies are made for the benefit of the people, the laxity of government officials in implementing these policies often becomes the biggest reason for the disappointment of the people from the government.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>laconic</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Tense or brief in the use of words, concise</string>
+		<key>Sentence</key>
+		<string>The actor was known for giving very laconic answers to interviewers, so everyone was surprised when he spoke to the journalist at length about his early life and his influences.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>limn</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>Paint (picture), Depict</string>
+		<key>Sentence</key>
+		<string>In its latest report, the Human Rights Commission has limned a very poor picture of the condition of destitute children in Pakistan</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>lucubrate</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>To study laboriously</string>
+		<key>Sentence</key>
+		<string>He lucubrated deep into the night for his examination the next day, as a result of which he was so sleepy during the exam that he could not answer the questions properly</string>
+	</dict>
+</array>
+</plist>

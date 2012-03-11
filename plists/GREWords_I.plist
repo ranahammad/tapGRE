@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>inveterate</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Long established, Habitual, Deep-rooted.</string>
+		<key>Sentence</key>
+		<string>The two families bore an inveterate hatred for each other and the bitterness went back several generations.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>immutable</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>That which cannot be changed, Unchangeable</string>
+		<key>Sentence</key>
+		<string>There are certain things that can be changed according to the situations and needs, but some of the things are so immutable that they have to be accepted as they are</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>intractable</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Very difficult to control, manage, or solve, Extremely stubborn</string>
+		<key>Sentence</key>
+		<string>The problem appeared intractable to both Eric and I, but Dave managed to solve it within five minutes</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>impassive</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Dull and expressionless. Also, without feeling</string>
+		<key>Sentence</key>
+		<string>While all the others were celebrating their victory over their rivals, Don alone stood impassive, showing no expressions</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>iconoclast</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>A person who does not respect conventional ideas, who attacks established beliefs or customs</string>
+		<key>Sentence</key>
+		<string>Though he is modern, we cannot call him an iconoclast because he still respects his culture and traditions, and his father&apos;s conventional ideas</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>concourse</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>A large area in a public building where people gather in or pass through </string>
+		<key>Sentence</key>
+		<string>I told her that I&apos;ll be waiting for her at the main concourse of the airport, but forgot to mention how she would recognize me among so many people gathered in that hall</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>conscript</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>Summon for compulsory military service </string>
+		<key>Sentence</key>
+		<string>Some countries have a law by which as soon as a man turns 18, he is conscripted to serve in the army for a minimum period of two years</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>consternation</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Great surprise and anxiety or dismay </string>
+		<key>Sentence</key>
+		<string>To his great consternation, his name did not figure in the list of participants even after he had deposited the requisite fee and submitted all the documents</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>contretempts</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Unfortunate or embarrassing occurrence</string>
+		<key>Sentence</key>
+		<string>I had a slight contretemps with my neighbor over the height of our fence, but we&apos;re now back to friendly terms</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>conundrum</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Riddle, Any confusing situation </string>
+		<key>Sentence</key>
+		<string>The interpretation of dreams remains a conundrum for psychoanalysts -- despite all the research that has gone into it, there&apos;s no acceptable model which can explain the phenomenon of dreams.</string>
+	</dict>
+</array>
+</plist>

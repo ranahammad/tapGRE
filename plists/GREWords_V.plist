@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>verbalize</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>put into words</string>
+		<key>Sentence</key>
+		<string>Though Gregor knew who had committed the murder, but being an illiterate dumb old man, he could not verbalize it.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>verbatim</string>
+		<key>Type</key>
+		<string>adj. &amp; adverb</string>
+		<key>Meaning</key>
+		<string>1) In exactly the same words 2) Word for word</string>
+		<key>Sentence</key>
+		<string>She had an amazing memory, and could recall verbatim the conversations she had had with the principal</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>verbose</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Using or expressed in more words than are necessary</string>
+		<key>Sentence</key>
+		<string>Most people avoid him because of his verbosity while speaking; once he starts something, he speaks at length, using as many words as he can without even recognizing the need of them</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>verge</string>
+		<key>Type</key>
+		<string>n &amp; v</string>
+		<key>Meaning</key>
+		<string>1) Extreme edge or border 2) Incline downwards or in specified direction</string>
+		<key>Sentence</key>
+		<string>It was only after it was discovered that the tiger was on the verge of extinction that the government has taken several steps to preserve the species</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>verisimilitude</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Appearance of truth, Close resemblance to reality</string>
+		<key>Sentence</key>
+		<string>The verisimilitude of the wax statues at the museum of Madame Tussaud&apos;s in London is truly amazing -- the statues are so life like that many people mistake them for being real</string>
+	</dict>
+</array>
+</plist>

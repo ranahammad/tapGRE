@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+<dict>
+	<key>Word</key>
+	<string>xenophobia</string>
+	<key>Type</key>
+	<string>noun</string>
+	<key>Meaning</key>
+	<string>fear of strangers</string>
+	<key>Sentence</key>
+	<string>Germany was swept with a wave of xenophobia for several years, but now that it has opened its doors to foreigners from all over the world, the situation has remarkably changed</string>
+</dict>
+<dict>
+	<key>Word</key>
+	<string>xyloid</string>
+	<key>Type</key>
+	<string>adj.</string>
+	<key>Meaning</key>
+	<string>Of or resembling wood</string>
+	<key>Sentence</key>
+	<string>The statue was a xyloid structure, made of the finest quality wood.</string>
+</dict>
+</array>
+</plist>

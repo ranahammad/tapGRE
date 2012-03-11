@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>malicious</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>hateful, spiteful</string>
+		<key>Sentence</key>
+		<string>His adversaries tried all sorts of malicious tricks to ruin his hard earned repute and popularity among the masses, but each time he managed to come out unscathed only because of his enormous goodwill.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>malleable</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Capable of being shaped by pounding</string>
+		<key>Sentence</key>
+		<string>The malleability of these metals makes them more useful than other metals; they can easily be pounded to give any shape</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>malodorous</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Evil-smelling, Foul-smelling</string>
+		<key>Sentence</key>
+		<string>The biggest drawback of that house we went to see was that it was situated next to a malodorous drain making it almost impossible to breathe</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>mammoth</string>
+		<key>Type</key>
+		<string>noun &amp; adjective</string>
+		<key>Meaning</key>
+		<string>Huge, gigantic, enormous</string>
+		<key>Sentence</key>
+		<string>The police of Mumbai has launched a mammoth operation involving hundreds of policemen to curb the growing menace of the underworld in the city</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>mandate </string>
+		<key>Type</key>
+		<string>noun &amp; verb</string>
+		<key>Meaning</key>
+		<string>Judicial or legal command from superior</string>
+		<key>Sentence</key>
+		<string>It was mandatory for everyone to sign the attendance register as soon as he enters the office failing of which could lead to the suspension of his service</string>
+	</dict>
+</array>
+</plist>

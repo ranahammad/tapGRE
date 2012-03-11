@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>fulminate</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>Flash like lightening. Make loud or violent verbal attacks</string>
+		<key>Sentence</key>
+		<string>The entire assembly was shocked by the reporter&apos;s sudden fulminatory remarks at the minister</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>flagrant</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Glaring, Notorious, Scandalous (of offence or offender). Conspicuously bad</string>
+		<key>Sentence</key>
+		<string>Jason is a flagrant liar and does not hesitate before talking ill about anyone.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>facetious</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Addicted to or marked by pleasantry or levity</string>
+		<key>Sentence</key>
+		<string>Gary has this facetious habit of passing silly remarks, which can get very irritating at times</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>factitious</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Unnatural, Made for a special purpose</string>
+		<key>Sentence</key>
+		<string>The hotel ordered factitious red flowers made of paper to decorate its lobby for Christmas</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>fetish</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>An object of unreasonable affection or reverence</string>
+		<key>Sentence</key>
+		<string>Selia is too fetish about her cat and even takes her along to parties</string>
+	</dict>
+</array>
+</plist>

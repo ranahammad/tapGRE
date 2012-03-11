@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>picayune</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Of little value or importance</string>
+		<key>Sentence</key>
+		<string>In comparison to the massive losses suffered by him on the stock markets, my loss because of the slight fall in dividends seems pretty picayune -- I should thank my stars I did not invest in shares</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>placid</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Calm and peaceful, Not easily excited</string>
+		<key>Sentence</key>
+		<string>The reflection of the hills in the clear and placid water of the pond made a beautiful sight</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>platonic</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>A friendly relationship between a man and a woman, lacking sexual feelings</string>
+		<key>Sentence</key>
+		<string>On being accused of having an affair with his co-star, the actor made it clear that his relationship with his co-star was platonic and nothing more than that.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>pogrom</string>
+		<key>Type</key>
+		<string>n</string>
+		<key>Meaning</key>
+		<string>An organized killing of large number of people</string>
+		<key>Sentence</key>
+		<string>The pogrom of the Jewish community by the Nazis during the Second World War will go down as among the most shameful episodes of human history</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>pudgy</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>short and fat</string>
+		<key>Sentence</key>
+		<string>The chairman of the company was a pudgy little man, very confident of himself and absolutely not conscious of his large girth</string>
+	</dict>
+</array>
+</plist>

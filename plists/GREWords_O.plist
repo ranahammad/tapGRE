@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>obviate</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>(1) Make unnecessary or redundant (2) To remove from the way</string>
+		<key>Sentence</key>
+		<string>The use of E-mail has obviated the use of telegram which was believed to be the fastest way of communicating; people can now send any message all over the world within no time</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>obdurate</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Fixed in one&apos;s beliefs and thoughts, Stubborn</string>
+		<key>Sentence</key>
+		<string>Despite all my requests, she remained obdurate that she wouldn&apos;t cross the border with me, so I had to leave her alone and move on.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>offal</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>The organs inside an animal which are eaten as food</string>
+		<key>Sentence</key>
+		<string>After he had removed the offal from the dead camel&apos;s body, the meat seller left the carcass to rot in the desert</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>ode</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>A long poem addressed to a person or thing</string>
+		<key>Sentence</key>
+		<string>His poem he recited at the school farewell was an ode to the glorious days we all had at school, and brought emotional memories flooding in front of us</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>obliquety</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Deviation from what is morally correct or from sound thinking, Crooked conduct</string>
+		<key>Sentence</key>
+		<string>When he was a child, his uncaring father and mild mannered mother never bothered to correct his obliquities, and his minor offences slowly took the shape of criminal conduct.</string>
+	</dict>
+</array>
+</plist>

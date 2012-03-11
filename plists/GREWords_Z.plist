@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>zeitgeist</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>A general set of ideas, beliefs, feelings, etc. which are typical of a particular period of history</string>
+		<key>Sentence</key>
+		<string>The period film set in the pre-Independence India beautifully reflects the then zeitgeist of the country : communal harmony in general, but seeds of discord being sown by the British, a simple living, high thinking attitude of the people, and above all, the patriotic fervor sweeping across the nation</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>zombie</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>1) Corpse said to be revived by witchcraft 2) Dull or apathetic person</string>
+		<key>Sentence</key>
+		<string>(2) He is fit for nothing, he spends the whole day in front of TV like a zombie.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>zealot</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Having very strong opinions about something</string>
+		<key>Sentence</key>
+		<string>The religious zealots of the country are at work again, spreading fanaticism and communal tension in the name of religion.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>zany</string>
+		<key>Type</key>
+		<string>n &amp; adj.</string>
+		<key>Meaning</key>
+		<string>Crazy, Surprising or uncontrolled in an amusing way</string>
+		<key>Sentence</key>
+		<string>This advertising agency is known for its zany TV commercials, all of them one crazier than the other</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>zeal</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Great enthusiasm or eagerness</string>
+		<key>Sentence</key>
+		<string>He prepared for the exams with a determined zeal, and it was this enthusiasm that helped him come out with flying colors.</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>generate</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>cause, create, produce</string>
+		<key>Sentence</key>
+		<string>The current cricket series between India and Australia has generated a lot of interest in the media as it comes after a rather troubled phase for Indian cricket</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>generic</string>
+		<key>Type</key>
+		<string>adjective</string>
+		<key>Meaning</key>
+		<string>Characteristic of an entire class or species</string>
+		<key>Sentence</key>
+		<string>To describe his play as a &apos;comedy&apos; would be too generic; I would classify it more as political satire</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>genesis</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>beginning, origin</string>
+		<key>Sentence</key>
+		<string>The director said at the press conference that the genesis of his latest blockbuster was a dream that he had had when he was just eight years old, and which he vividly recalls even now</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>geniality</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Cheerfulness, Kindliness, Sympathy</string>
+		<key>Sentence</key>
+		<string>I&apos;d never expected such geniality from them; I used to think they are quite rude and consider guests to be a nuisance</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>giddy</string>
+		<key>Type</key>
+		<string>adj. &amp; verb</string>
+		<key>Meaning</key>
+		<string>Light-hearted, Dizzy, to make or become giddy</string>
+		<key>Sentence</key>
+		<string>Watching the little children on the merry-go-round for so long made her feel dizzy, and she decided to go back to her room</string>
+	</dict>
+</array>
+</plist>

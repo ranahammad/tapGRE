@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>jocose</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Given to jokes and jesting, Humorous, Witty</string>
+		<key>Sentence</key>
+		<string>His jocose manner managed to lighten the atmosphere a little, but many people did not really approve of his jokes on such an occasion</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>junket</string>
+		<key>Type</key>
+		<string>noun &amp; verb</string>
+		<key>Meaning</key>
+		<string>A banquet, feast or picnic</string>
+		<key>Sentence</key>
+		<string>On the excellent performance of the company, the managing director decided to take all the employees on an all-expenses-paid, three-day junket to Bangkok</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>judder</string>
+		<key>Type</key>
+		<string>verb &amp; noun</string>
+		<key>Meaning</key>
+		<string>Shake noisily or violently</string>
+		<key>Sentence</key>
+		<string>The car juddered noisily for a while on the rocky road, when suddenly, one of the wheels came off</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>joust</string>
+		<key>Type</key>
+		<string>verb &amp; noun</string>
+		<key>Meaning</key>
+		<string>A combat, tournament, a personal combat or competition.</string>
+		<key>Sentence</key>
+		<string>The two game shows, launched on separate TV channels almost simultaneously, jousted for a while for the top position, till the one on the Star Channel emerged as the clear winner</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>jejune</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Dull and dry, devoid of interest or satisfaction</string>
+		<key>Sentence</key>
+		<string>His lectures were so jejune that most of the members were seen napping while he was delivering it</string>
+	</dict>
+</array>
+</plist>

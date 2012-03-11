@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>uninhibited</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Free in one&apos;s behavior and feelings, Without embarrassment or too much control</string>
+		<key>Sentence</key>
+		<string>It was among the most uninhibited discussions on the topic that has ever been seen on TV.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>unique</string>
+		<key>Type</key>
+		<string>adj. &amp; n</string>
+		<key>Meaning</key>
+		<string>Being the only one of its kind</string>
+		<key>Sentence</key>
+		<string>A unique feature of this cellular phone is that it can be plugged on to a laptop computer, and used to connect to the Internet even without the use of a modem.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>unkempt</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Uncared for in appearance</string>
+		<key>Sentence</key>
+		<string>It was ten in the morning when I reached his place and met him; he looked so unkempt that I could make out that he had just got out of bed.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>unmitigated</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>(Esp. of something bad or unsuccessful) total, esp. lacking any good or positive points</string>
+		<key>Sentence</key>
+		<string>The much publicized comeback film of the superstar proved to be an unmitigated disaster at the box office</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>unobtrusive</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>unobjectionable</string>
+		<key>Sentence</key>
+		<string>He tried to slip into the classroom unobtrusively without catching the attention of the lecturer, but was not successful in his intentions</string>
+	</dict>
+</array>
+</plist>

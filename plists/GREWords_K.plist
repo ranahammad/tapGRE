@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>kohl</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Black powder used by women to darken their eyelids</string>
+		<key>Sentence</key>
+		<string>In certain Indian communities, it is compulsory for an unmarried girl to outline her eyes with kohl, so as to look more attractive</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>kowtow</string>
+		<key>Type</key>
+		<string>verb &amp; noun</string>
+		<key>Meaning</key>
+		<string>To show great humility and regard or to treat with obsequious deference</string>
+		<key>Sentence</key>
+		<string>He can go to any extent to get a promotion, but I&apos;m just not prepared to kowtow to the boss for it</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>ken</string>
+		<key>Type</key>
+		<string>verb &amp; noun</string>
+		<key>Meaning</key>
+		<string>Range or sight of knowledge</string>
+		<key>Sentence</key>
+		<string>So dull and poor he was in mathematics that it was just beyond his ken to understand even the basic principles of geometry</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>kaleidoscope</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Tube in which patterns are made by the reflection in mirrors of colored pieces of glass.</string>
+		<key>Sentence</key>
+		<string>(1) The Indian bazaar was a kaleidoscope of bright colors, enchanting smells, and pleasant sounds. (2) From the top of the building, I got a kaleidoscopic view of the small cars down on the street</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>kernel</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>Central or vital part of a nut or the whole seed</string>
+		<key>Sentence</key>
+		<string>While the edible kernels of the almonds were collected in the jar, the hard shells were thrown out</string>
+	</dict>
+</array>
+</plist>

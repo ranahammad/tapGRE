@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Word</key>
+		<string>tawdry</string>
+		<key>Type</key>
+		<string>adj. &amp; n</string>
+		<key>Meaning</key>
+		<string>showy but worthless</string>
+		<key>Sentence</key>
+		<string>Though the jewelry she wears is tawdry, she boasts of it as if it were worth a million dollars</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>tacitum</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Silent, Reserved in speech</string>
+		<key>Sentence</key>
+		<string>He was a reserved and taciturn person when he had joined this institution, but within two years his transformation into an outspoken extrovert is amazing.</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>tractable</string>
+		<key>Type</key>
+		<string>adj.</string>
+		<key>Meaning</key>
+		<string>Submissive, Easily manageable</string>
+		<key>Sentence</key>
+		<string>I was quite apprehensive about my first night as a baby-sitter, but thankfully, the little girl happened to be quite tractable and easily agreed to whatever I asked her to do</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>temporize</string>
+		<key>Type</key>
+		<string>verb</string>
+		<key>Meaning</key>
+		<string>To act so as to gain time, to delay</string>
+		<key>Sentence</key>
+		<string>The company management is temporizing over the decision about the merger, hoping that the stock market would recover and they will be able to get a better deal if they wait</string>
+	</dict>
+	<dict>
+		<key>Word</key>
+		<string>tyro</string>
+		<key>Type</key>
+		<string>noun</string>
+		<key>Meaning</key>
+		<string>A beginner, novice</string>
+		<key>Sentence</key>
+		<string>They considered him too much of a tyro to be entrusted with such a crucial task, but he surprised them by thinking of a plan which none of them had thought of despite their vast experience</string>
+	</dict>
+</array>
+</plist>
